@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "announcements",
+  "info": {
+    "singularName": "announcement",
+    "pluralName": "announcements",
+    "displayName": "Announcement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "class": {
+      "type": "string",
+      "required": true
+    },
+    "prepared_exam": {
+      "type": "string",
+      "required": true
+    },
+    "school_year": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 10
+    },
+    "number_of_course_hours": {
+      "type": "integer",
+      "required": true
+    },
+    "skills": {
+      "type": "string",
+      "required": true
+    },
+    "possible_application_example": {
+      "type": "string",
+      "required": true
+    },
+    "number_of_companies": {
+      "type": "integer",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
