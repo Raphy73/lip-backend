@@ -45,6 +45,10 @@
     "description": {
       "type": "string",
       "required": true
+    },
+    "date_end": {
+      "type": "date",
+      "required": true
     }
   }
 }
